@@ -37,3 +37,4 @@ Sites I did as freelancer in my [portfolio](https://castetus.ru)
 
 ## Soft skills
 
+English A2 (I can read technical documentation freely)
