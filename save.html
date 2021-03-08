@@ -1,0 +1,71 @@
+<main class="main">
+  <article class="cv">
+    <section class="cv__block">
+      <h1 class="cv__heading">Konstantin Boikov, front-end developer</h1>
+      <img class="cv__image" src="csa-flag.jpg" alt="cv" />
+      <p>E-mail: <a href="mailto:kboikov@mail.ru">kboikov@mail.ru</a></p>
+      <p>Telegram: <a href="https://tlgg.ru/castetus">@castetus</a></p>
+      <p>Site: <a href="https://castetus.ru">castetus.ru</a></p>
+    </section>
+    <hr />
+    <section class="cv___block">
+      <h2>About me</h2>
+      <p>
+        I worked as search engines optimizator for few years. Now I want to
+        become JS-developer. Besides JS I also have experience in PHP (as
+        Wordpress-developer).
+      </p>
+    </section>
+    <section class="cv___block">
+      <h2>Skills</h2>
+      <ol>
+        <li>Vanilla JS</li>
+        <li>Vue.js (also vuex and vue router)</li>
+        <li>Markup with BEM</li>
+        <li>Sass, Less, Pug</li>
+        <li>Gulp, Webpack</li>
+        <li>Git and GitHub</li>
+      </ol>
+    </section>
+    <section class="cv___block">
+      <h2>My code example:</h2>
+      <pre>
+          <code>
+created(){
+  if(this.discountIndex !== null){
+      this.discount = this.DISCOUNTS[this.discountIndex];
+      if (this.discount.products){
+          for (let product of this.discount.products){
+              this.ADD_PRODUCT_TO_LIST(product);
+          }
+      }
+      this.SET_CAT_DESCRIPTION(this.discount.properties.catDescription);
+      this.SET_DESCRIPTION(this.discount.properties.productDescription);
+                  
+  } else {
+      this.discount.id = Date.now();
+  }
+}
+          </code>
+        </pre>
+    </section>
+    <section class="cv___block">
+      <h2>Experience</h2>
+      <p>
+        Sites I did as freelancer in my
+        <a href="https://castetus.ru">portfolio</a>
+      </p>
+    </section>
+    <section class="cv___block">
+      <h2>Soft skills</h2>
+      <p>English A2 (I can read technical documentation freely)</p>
+    </section>
+  </article>
+</main>
+<footer class="footer">
+  <a href="https://github.com/castetus">My GitHub</a>
+  <a href="https://rs.school/js/">
+    <img class="footer__logo" src="rs_school_js.svg" alt="rsschool" />
+  </a>
+  <p>2021</p>
+</footer>
