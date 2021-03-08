@@ -1,0 +1,21 @@
+.main{
+  display: flex;
+  justify-content: center;
+}
+.cv{
+  max-width: 90%;
+}
+.cv__heading{
+  font-size: 2em;
+}
+.cv__image{
+  float: left;
+  width: 25%;
+  
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.cv__block{
+  overflow: auto;
+  float: right;
+}
